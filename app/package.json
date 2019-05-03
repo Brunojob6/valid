@@ -1,0 +1,16 @@
+{
+  "name": "valida-auto-sim",
+  "productName": "VALIDA BIO AUTO SMARTSIM",
+  "version": "2.0.1",
+  "description": "VALIDA BIO AUTO SMARTSIM",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Infotrade Tecnologia",
+    "email": "domingos.santos@infotradetecnologia.com.br"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "npm run electron-rebuild"
+  },
+  "dependencies": {}
+}

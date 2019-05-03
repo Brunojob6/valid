@@ -1,0 +1,20 @@
+Observações para instalar o vali-auto-sim
+
+1 * Verificar se o JAVA 8 tá instalado, caso contrario passe para a 2 Etapa
+  - Você pode executar o .jar após a instalação que fica no 
+	c:\Users\infotrade\AppData\Local\Programas|valida-auto-sim\resources\hamsteriii 
+	execute o .jar como o nome hamsterri-0.0.01-SNAPSHOT.jar (java -jar hamsterri-0.0.01-SNAPSHOT.jar)
+	Se estive tudo ok, vai aparece - Server online at http://localhost:8080 
+	caso contrario instale o java 8, e teste novamente
+
+2 * Instalar os drive da biometria 
+  - Link com os drive necesserio e este: https://drive.google.com/open?id=1SrfaDH9g7FXRaNDTDOU1n5ZH2hF3O6N7
+    Instale o eNBioBSP_SDK_v4.890.rar, se pedi para instalar o frame instale também 
+	* OBS tem um serial dentro da pasta 
+	 
+3 * Caso de algum problema com o driver de biometria você pode pega a pasta hamsteriii que estava no link anterior, remove a pasta 
+	hamsteriii que fica c:\Users\infotrade\AppData\Local\Programas|valida-auto-sim\resources\ e subistitua pela que você pegou 
+
+	Você pode testa o drive no http://localhost:8080/driver/init se estive tudo certo vai existir um messagem de success
+	
+OBS: Essa instalação e para WINDOWS 7 32 BITs
