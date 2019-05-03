@@ -73,8 +73,7 @@
     "publish": {
       "provider": "github",
       "owner": "brunojob6",
-      "repo": "validabio",
-      "token": "18ceecc36edc85d550affe54d6111114202b0e3c"
+      "repo": "valid"
     },
     "nsis": {
       "perMachine": true,

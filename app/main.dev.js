@@ -32,8 +32,8 @@ if (isDev) {
 autoUpdater.setFeedURL({ 
   provider: 'github', 
   owner: 'brunojob6', 
-  repo: 'validabio', 
-  token: 'a5a01bacfb142fdb31c587310a50f8b2507856c5' 
+  repo: 'valid'
+  
 });
 
 //updateHandle();a5a01bacfb142fdb31c587310a50f8b2507856c5 
